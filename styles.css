@@ -16,6 +16,10 @@ body {
   font-family: "Azeret Mono";
 }
 
+.container {
+  width: 90%;
+}
+
 /* -------------- Style for Banner Section---------- */
 .banner-container {
   background-image: url("/assets/Hero-bg.png");
@@ -64,7 +68,7 @@ body {
 
 /* --------------- Style for Dev QA Section -------- */
 .devqa-container {
-  width: 90%;
+  width: 100%;
   margin: 80px auto;
   padding: 80px 95px;
   background-color: rgba(13, 19, 33, 0.02);
@@ -137,4 +141,37 @@ body {
   background: #ffffff;
   color: #0d1321;
   border: solid 1px #0d1321;
+}
+
+/* -------------- Style for My Inspiration Section---------- */
+.inspiration-content {
+  width: 70%;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.inspiration-content h1 {
+  font-size: 32px;
+  font-weight: 800px;
+  margin-bottom: 24px;
+}
+.inspiration-content p {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #0d1321;
+}
+
+.inspiration-video {
+  margin: 0 auto;
+  height: 500px;
+  width: 90%;
+  padding: 32px;
+  border: 1px solid #d4d5d8;
+  border-radius: 8px;
+  margin-top: 48;
+}
+
+.inspiration-video iframe {
+  border-radius: 8px;
+  cursor: pointer;
 }

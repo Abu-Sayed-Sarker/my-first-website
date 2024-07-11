@@ -175,3 +175,134 @@ body {
   border-radius: 8px;
   cursor: pointer;
 }
+
+/* Current target section */
+.current-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.current_container {
+  margin-top: 130px;
+  width: 90%;
+}
+
+.current-div {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.current-div-second {
+  background-color: rgba(0, 76, 232, 0.05);
+}
+.current-div-thard {
+  background-color: rgba(255, 223, 0, 0.05);
+}
+.current-logo {
+  width: 56px;
+  height: 56px;
+}
+.current-h1 {
+  color: #0d1321;
+  font-size: 24px;
+  font-weight: 800;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.current-p {
+  color: #0d1321;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.current-button {
+  text-decoration: underline;
+  margin-top: 24px;
+  color: #0d1321;
+  font-weight: 700;
+}
+
+/* Support section */
+.support-div {
+  width: 90%;
+  height: 313px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 16px;
+  border-radius: 16px;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    url(./assets/handshake.jpg) lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 48px 64px;
+  margin-top: 150px;
+  margin-bottom: 118px;
+}
+.support-h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+.support-p {
+  width: 606px;
+  color: #fff;
+  opacity: 0.7;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.support-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+.support-input input {
+  width: 518px;
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  padding: 19px 20px;
+  border-radius: 8px;
+}
+.support-input button {
+  width: 120px;
+  color: #0d1321;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 17px 20px;
+  border-radius: 8px;
+}
+
+/* Footer Section */
+.footer-div {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(13, 19, 33, 0.03);
+  padding: 32px 0;
+  
+}
+.footer-h1 {
+  color: #0d1321;
+  text-align: left;
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
